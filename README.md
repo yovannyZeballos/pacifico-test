@@ -27,7 +27,7 @@ Principalmente los siguientes aspectos:
 
 ### Ejercicio #
 
-Se requiere migrar el procedimiento almacenado **up_InsertarSolicitudCambio.sql** y la función **EliminarBeneficiario.vb** hacia código Java, para ello se debe crear un microservicio el cual debe utilizar los siguientes frameworks y tecnologias:
+Se requiere migrar el procedimiento almacenado [up_InsertarSolicitudCambio.sql](https://github.com/yovannyZeballos/pacifico-test/blob/main/sp%20up_InsertarSolicitudCambio.sql) y la función en vb6 [EliminarBeneficiario.vb](https://github.com/yovannyZeballos/pacifico-test/blob/main/EliminarBeneficiario.vb) hacia código Java, para ello se debe crear un microservicio el cual debe utilizar los siguientes frameworks y tecnologias:
    - Spring Boot
    - Spring WebFlux 
    - Lombok 
