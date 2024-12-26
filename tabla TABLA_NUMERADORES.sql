@@ -1,0 +1,24 @@
+USE [VIAP_Ayer]
+GO
+
+/****** Object:  Table [dbo].[TABLA_NUMERADORES]    Script Date: 27/11/2024 17:22:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TABLA_NUMERADORES](
+	[CodigoNumerador] [smallint] NOT NULL,
+	[CodigoSubnumerador] [smallint] NOT NULL,
+	[UltimoNumero] [int] NULL,
+	[Descripcion] [varchar](40) NULL,
+ CONSTRAINT [XPKTABLA_NUMERADORES] PRIMARY KEY CLUSTERED 
+(
+	[CodigoNumerador] ASC,
+	[CodigoSubnumerador] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
